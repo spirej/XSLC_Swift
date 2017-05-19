@@ -14,6 +14,19 @@
 		0942CF041ECC44A900478755 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0942CF021ECC44A900478755 /* LaunchScreen.storyboard */; };
 		0942CF0F1ECC44A900478755 /* XSLC_SwiftTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0942CF0E1ECC44A900478755 /* XSLC_SwiftTests.swift */; };
 		0942CF1A1ECC44A900478755 /* XSLC_SwiftUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0942CF191ECC44A900478755 /* XSLC_SwiftUITests.swift */; };
+		09A7D5BC1ECD86CD00B416EC /* XSActiveViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09A7D5A11ECD86CD00B416EC /* XSActiveViewController.swift */; };
+		09A7D5BD1ECD86CD00B416EC /* Constant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09A7D5A51ECD86CD00B416EC /* Constant.swift */; };
+		09A7D5BE1ECD86CD00B416EC /* XSBaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09A7D5A61ECD86CD00B416EC /* XSBaseViewController.swift */; };
+		09A7D5BF1ECD86CD00B416EC /* XSTabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09A7D5A71ECD86CD00B416EC /* XSTabBarViewController.swift */; };
+		09A7D5C01ECD86CD00B416EC /* XSDiscoverViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09A7D5AA1ECD86CD00B416EC /* XSDiscoverViewController.swift */; };
+		09A7D5C11ECD86CD00B416EC /* XSHomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09A7D5AF1ECD86CD00B416EC /* XSHomeViewController.swift */; };
+		09A7D5C21ECD86CD00B416EC /* XSInvestViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09A7D5B41ECD86CD00B416EC /* XSInvestViewController.swift */; };
+		09A7D5C31ECD86CD00B416EC /* XSMineViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09A7D5B91ECD86CD00B416EC /* XSMineViewController.swift */; };
+		09A7D5C51ECE93BF00B416EC /* XSInvestSecHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09A7D5C41ECE93BF00B416EC /* XSInvestSecHeaderView.swift */; };
+		09A7D5C71ECEA43000B416EC /* XSPlandetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09A7D5C61ECEA43000B416EC /* XSPlandetailsViewController.swift */; };
+		09A7D5C91ECEA59C00B416EC /* XSPlanListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09A7D5C81ECEA59C00B416EC /* XSPlanListViewController.swift */; };
+		09A7D5CC1ECEC56600B416EC /* XSPlanListCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09A7D5CA1ECEC56600B416EC /* XSPlanListCell.swift */; };
+		09A7D5CD1ECEC56600B416EC /* XSPlanListCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 09A7D5CB1ECEC56600B416EC /* XSPlanListCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +60,19 @@
 		0942CF151ECC44A900478755 /* XSLC_SwiftUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = XSLC_SwiftUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0942CF191ECC44A900478755 /* XSLC_SwiftUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XSLC_SwiftUITests.swift; sourceTree = "<group>"; };
 		0942CF1B1ECC44A900478755 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		09A7D5A11ECD86CD00B416EC /* XSActiveViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = XSActiveViewController.swift; sourceTree = "<group>"; };
+		09A7D5A51ECD86CD00B416EC /* Constant.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constant.swift; sourceTree = "<group>"; };
+		09A7D5A61ECD86CD00B416EC /* XSBaseViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = XSBaseViewController.swift; sourceTree = "<group>"; };
+		09A7D5A71ECD86CD00B416EC /* XSTabBarViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = XSTabBarViewController.swift; sourceTree = "<group>"; };
+		09A7D5AA1ECD86CD00B416EC /* XSDiscoverViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = XSDiscoverViewController.swift; sourceTree = "<group>"; };
+		09A7D5AF1ECD86CD00B416EC /* XSHomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = XSHomeViewController.swift; sourceTree = "<group>"; };
+		09A7D5B41ECD86CD00B416EC /* XSInvestViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = XSInvestViewController.swift; sourceTree = "<group>"; };
+		09A7D5B91ECD86CD00B416EC /* XSMineViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = XSMineViewController.swift; sourceTree = "<group>"; };
+		09A7D5C41ECE93BF00B416EC /* XSInvestSecHeaderView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = XSInvestSecHeaderView.swift; sourceTree = "<group>"; };
+		09A7D5C61ECEA43000B416EC /* XSPlandetailsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = XSPlandetailsViewController.swift; sourceTree = "<group>"; };
+		09A7D5C81ECEA59C00B416EC /* XSPlanListViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = XSPlanListViewController.swift; sourceTree = "<group>"; };
+		09A7D5CA1ECEC56600B416EC /* XSPlanListCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = XSPlanListCell.swift; sourceTree = "<group>"; };
+		09A7D5CB1ECEC56600B416EC /* XSPlanListCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = XSPlanListCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +123,12 @@
 		0942CEF81ECC44A900478755 /* XSLC_Swift */ = {
 			isa = PBXGroup;
 			children = (
+				09A7D59F1ECD86CD00B416EC /* Active */,
+				09A7D5A41ECD86CD00B416EC /* Common */,
+				09A7D5A81ECD86CD00B416EC /* Discover */,
+				09A7D5AD1ECD86CD00B416EC /* Home */,
+				09A7D5B21ECD86CD00B416EC /* Invest */,
+				09A7D5B71ECD86CD00B416EC /* Mine */,
 				0942CEF91ECC44A900478755 /* AppDelegate.swift */,
 				0942CEFB1ECC44A900478755 /* ViewController.swift */,
 				0942CEFD1ECC44A900478755 /* Main.storyboard */,
@@ -123,6 +155,181 @@
 				0942CF1B1ECC44A900478755 /* Info.plist */,
 			);
 			path = XSLC_SwiftUITests;
+			sourceTree = "<group>";
+		};
+		09A7D59F1ECD86CD00B416EC /* Active */ = {
+			isa = PBXGroup;
+			children = (
+				09A7D5A01ECD86CD00B416EC /* Controller */,
+				09A7D5A21ECD86CD00B416EC /* Model */,
+				09A7D5A31ECD86CD00B416EC /* View */,
+			);
+			path = Active;
+			sourceTree = "<group>";
+		};
+		09A7D5A01ECD86CD00B416EC /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				09A7D5A11ECD86CD00B416EC /* XSActiveViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		09A7D5A21ECD86CD00B416EC /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		09A7D5A31ECD86CD00B416EC /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		09A7D5A41ECD86CD00B416EC /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				09A7D5A51ECD86CD00B416EC /* Constant.swift */,
+				09A7D5A61ECD86CD00B416EC /* XSBaseViewController.swift */,
+				09A7D5A71ECD86CD00B416EC /* XSTabBarViewController.swift */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		09A7D5A81ECD86CD00B416EC /* Discover */ = {
+			isa = PBXGroup;
+			children = (
+				09A7D5A91ECD86CD00B416EC /* Controller */,
+				09A7D5AB1ECD86CD00B416EC /* Model */,
+				09A7D5AC1ECD86CD00B416EC /* View */,
+			);
+			path = Discover;
+			sourceTree = "<group>";
+		};
+		09A7D5A91ECD86CD00B416EC /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				09A7D5AA1ECD86CD00B416EC /* XSDiscoverViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		09A7D5AB1ECD86CD00B416EC /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		09A7D5AC1ECD86CD00B416EC /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		09A7D5AD1ECD86CD00B416EC /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				09A7D5AE1ECD86CD00B416EC /* Controller */,
+				09A7D5B01ECD86CD00B416EC /* Model */,
+				09A7D5B11ECD86CD00B416EC /* View */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		09A7D5AE1ECD86CD00B416EC /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				09A7D5AF1ECD86CD00B416EC /* XSHomeViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		09A7D5B01ECD86CD00B416EC /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		09A7D5B11ECD86CD00B416EC /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		09A7D5B21ECD86CD00B416EC /* Invest */ = {
+			isa = PBXGroup;
+			children = (
+				09A7D5B31ECD86CD00B416EC /* Controller */,
+				09A7D5B51ECD86CD00B416EC /* Model */,
+				09A7D5B61ECD86CD00B416EC /* View */,
+			);
+			path = Invest;
+			sourceTree = "<group>";
+		};
+		09A7D5B31ECD86CD00B416EC /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				09A7D5B41ECD86CD00B416EC /* XSInvestViewController.swift */,
+				09A7D5C81ECEA59C00B416EC /* XSPlanListViewController.swift */,
+				09A7D5C61ECEA43000B416EC /* XSPlandetailsViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		09A7D5B51ECD86CD00B416EC /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		09A7D5B61ECD86CD00B416EC /* View */ = {
+			isa = PBXGroup;
+			children = (
+				09A7D5C41ECE93BF00B416EC /* XSInvestSecHeaderView.swift */,
+				09A7D5CA1ECEC56600B416EC /* XSPlanListCell.swift */,
+				09A7D5CB1ECEC56600B416EC /* XSPlanListCell.xib */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		09A7D5B71ECD86CD00B416EC /* Mine */ = {
+			isa = PBXGroup;
+			children = (
+				09A7D5B81ECD86CD00B416EC /* Controller */,
+				09A7D5BA1ECD86CD00B416EC /* Model */,
+				09A7D5BB1ECD86CD00B416EC /* View */,
+			);
+			path = Mine;
+			sourceTree = "<group>";
+		};
+		09A7D5B81ECD86CD00B416EC /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				09A7D5B91ECD86CD00B416EC /* XSMineViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		09A7D5BA1ECD86CD00B416EC /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		09A7D5BB1ECD86CD00B416EC /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -233,6 +440,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				0942CF041ECC44A900478755 /* LaunchScreen.storyboard in Resources */,
+				09A7D5CD1ECEC56600B416EC /* XSPlanListCell.xib in Resources */,
 				0942CF011ECC44A900478755 /* Assets.xcassets in Resources */,
 				0942CEFF1ECC44A900478755 /* Main.storyboard in Resources */,
 			);
@@ -259,8 +467,20 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				09A7D5C11ECD86CD00B416EC /* XSHomeViewController.swift in Sources */,
+				09A7D5C21ECD86CD00B416EC /* XSInvestViewController.swift in Sources */,
+				09A7D5C31ECD86CD00B416EC /* XSMineViewController.swift in Sources */,
+				09A7D5C51ECE93BF00B416EC /* XSInvestSecHeaderView.swift in Sources */,
 				0942CEFC1ECC44A900478755 /* ViewController.swift in Sources */,
+				09A7D5BF1ECD86CD00B416EC /* XSTabBarViewController.swift in Sources */,
+				09A7D5BC1ECD86CD00B416EC /* XSActiveViewController.swift in Sources */,
+				09A7D5C91ECEA59C00B416EC /* XSPlanListViewController.swift in Sources */,
+				09A7D5BE1ECD86CD00B416EC /* XSBaseViewController.swift in Sources */,
 				0942CEFA1ECC44A900478755 /* AppDelegate.swift in Sources */,
+				09A7D5C71ECEA43000B416EC /* XSPlandetailsViewController.swift in Sources */,
+				09A7D5CC1ECEC56600B416EC /* XSPlanListCell.swift in Sources */,
+				09A7D5BD1ECD86CD00B416EC /* Constant.swift in Sources */,
+				09A7D5C01ECD86CD00B416EC /* XSDiscoverViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -412,10 +632,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = "";
+				GCC_PREFIX_HEADER = "$(SRCROOT)/XSLC_Swift/XSLC_Swift/PrefixHeader.pch";
 				INFOPLIST_FILE = XSLC_Swift/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.xs.XSLC-Swift";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
@@ -424,10 +648,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = "";
+				GCC_PREFIX_HEADER = "$(SRCROOT)/XSLC_Swift/XSLC_Swift/PrefixHeader.pch";
 				INFOPLIST_FILE = XSLC_Swift/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.xs.XSLC-Swift";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
@@ -505,6 +733,7 @@
 				0942CF201ECC44A900478755 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		0942CF211ECC44A900478755 /* Build configuration list for PBXNativeTarget "XSLC_SwiftTests" */ = {
 			isa = XCConfigurationList;
@@ -513,6 +742,7 @@
 				0942CF231ECC44A900478755 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		0942CF241ECC44A900478755 /* Build configuration list for PBXNativeTarget "XSLC_SwiftUITests" */ = {
 			isa = XCConfigurationList;
@@ -521,6 +751,7 @@
 				0942CF261ECC44A900478755 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

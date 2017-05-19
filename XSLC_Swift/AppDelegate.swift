@@ -16,6 +16,15 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
+        //创建根目录
+        self.window?.frame = UIScreen.main.bounds
+        //创建视图控制器
+        let tabBarVC = XSTabBarViewController()
+        self.window?.rootViewController = tabBarVC
+        //显示窗口
+        self.window?.makeKeyAndVisible()
+        self.window?.backgroundColor = UIColor.white
+        
         return true
     }
 
