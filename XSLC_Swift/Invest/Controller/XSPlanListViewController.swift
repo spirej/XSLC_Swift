@@ -15,7 +15,7 @@ class XSPlanListViewController: UIViewController, UITableViewDelegate, UITableVi
 
         // Do any additional setup after loading the view.
         self.navigationItem.title = "产品列表"
-        self.view.backgroundColor = kColor_gray
+        self.view.backgroundColor = kVCBgColor
         
         let planlistTableView = UITableView(frame: CGRect.init(x: 0, y: 0, width: kDeviceWidth, height: kDeviceHeight), style: UITableViewStyle.plain)
         planlistTableView.register(UINib.init(nibName: "XSPlanListCell", bundle: Bundle.main), forCellReuseIdentifier: "PlanListCell")

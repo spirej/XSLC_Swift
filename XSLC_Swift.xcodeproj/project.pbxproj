@@ -14,6 +14,12 @@
 		0942CF041ECC44A900478755 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0942CF021ECC44A900478755 /* LaunchScreen.storyboard */; };
 		0942CF0F1ECC44A900478755 /* XSLC_SwiftTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0942CF0E1ECC44A900478755 /* XSLC_SwiftTests.swift */; };
 		0942CF1A1ECC44A900478755 /* XSLC_SwiftUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0942CF191ECC44A900478755 /* XSLC_SwiftUITests.swift */; };
+		09A12F8C1ED287B200926CD2 /* XSPlandetailsCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09A12F8A1ED287B200926CD2 /* XSPlandetailsCell.swift */; };
+		09A12F8D1ED287B200926CD2 /* XSPlandetailsCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 09A12F8B1ED287B200926CD2 /* XSPlandetailsCell.xib */; };
+		09A12F8F1ED28B0B00926CD2 /* XSPlandetailsHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09A12F8E1ED28B0B00926CD2 /* XSPlandetailsHeaderView.swift */; };
+		09A12F931ED2963300926CD2 /* ExtensionUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09A12F921ED2963300926CD2 /* ExtensionUIView.swift */; };
+		09A12F951ED2CE3B00926CD2 /* ExtensionUIColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09A12F941ED2CE3B00926CD2 /* ExtensionUIColor.swift */; };
+		09A12F971ED2E50400926CD2 /* XSProjectFlowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09A12F961ED2E50400926CD2 /* XSProjectFlowView.swift */; };
 		09A7D5BC1ECD86CD00B416EC /* XSActiveViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09A7D5A11ECD86CD00B416EC /* XSActiveViewController.swift */; };
 		09A7D5BD1ECD86CD00B416EC /* Constant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09A7D5A51ECD86CD00B416EC /* Constant.swift */; };
 		09A7D5BE1ECD86CD00B416EC /* XSBaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09A7D5A61ECD86CD00B416EC /* XSBaseViewController.swift */; };
@@ -60,6 +66,12 @@
 		0942CF151ECC44A900478755 /* XSLC_SwiftUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = XSLC_SwiftUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0942CF191ECC44A900478755 /* XSLC_SwiftUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XSLC_SwiftUITests.swift; sourceTree = "<group>"; };
 		0942CF1B1ECC44A900478755 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		09A12F8A1ED287B200926CD2 /* XSPlandetailsCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = XSPlandetailsCell.swift; sourceTree = "<group>"; };
+		09A12F8B1ED287B200926CD2 /* XSPlandetailsCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = XSPlandetailsCell.xib; sourceTree = "<group>"; };
+		09A12F8E1ED28B0B00926CD2 /* XSPlandetailsHeaderView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = XSPlandetailsHeaderView.swift; sourceTree = "<group>"; };
+		09A12F921ED2963300926CD2 /* ExtensionUIView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExtensionUIView.swift; sourceTree = "<group>"; };
+		09A12F941ED2CE3B00926CD2 /* ExtensionUIColor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExtensionUIColor.swift; sourceTree = "<group>"; };
+		09A12F961ED2E50400926CD2 /* XSProjectFlowView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = XSProjectFlowView.swift; sourceTree = "<group>"; };
 		09A7D5A11ECD86CD00B416EC /* XSActiveViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = XSActiveViewController.swift; sourceTree = "<group>"; };
 		09A7D5A51ECD86CD00B416EC /* Constant.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constant.swift; sourceTree = "<group>"; };
 		09A7D5A61ECD86CD00B416EC /* XSBaseViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = XSBaseViewController.swift; sourceTree = "<group>"; };
@@ -195,6 +207,8 @@
 				09A7D5A51ECD86CD00B416EC /* Constant.swift */,
 				09A7D5A61ECD86CD00B416EC /* XSBaseViewController.swift */,
 				09A7D5A71ECD86CD00B416EC /* XSTabBarViewController.swift */,
+				09A12F921ED2963300926CD2 /* ExtensionUIView.swift */,
+				09A12F941ED2CE3B00926CD2 /* ExtensionUIColor.swift */,
 			);
 			path = Common;
 			sourceTree = "<group>";
@@ -296,6 +310,10 @@
 				09A7D5C41ECE93BF00B416EC /* XSInvestSecHeaderView.swift */,
 				09A7D5CA1ECEC56600B416EC /* XSPlanListCell.swift */,
 				09A7D5CB1ECEC56600B416EC /* XSPlanListCell.xib */,
+				09A12F8A1ED287B200926CD2 /* XSPlandetailsCell.swift */,
+				09A12F8B1ED287B200926CD2 /* XSPlandetailsCell.xib */,
+				09A12F8E1ED28B0B00926CD2 /* XSPlandetailsHeaderView.swift */,
+				09A12F961ED2E50400926CD2 /* XSProjectFlowView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -441,6 +459,7 @@
 			files = (
 				0942CF041ECC44A900478755 /* LaunchScreen.storyboard in Resources */,
 				09A7D5CD1ECEC56600B416EC /* XSPlanListCell.xib in Resources */,
+				09A12F8D1ED287B200926CD2 /* XSPlandetailsCell.xib in Resources */,
 				0942CF011ECC44A900478755 /* Assets.xcassets in Resources */,
 				0942CEFF1ECC44A900478755 /* Main.storyboard in Resources */,
 			);
@@ -473,11 +492,16 @@
 				09A7D5C51ECE93BF00B416EC /* XSInvestSecHeaderView.swift in Sources */,
 				0942CEFC1ECC44A900478755 /* ViewController.swift in Sources */,
 				09A7D5BF1ECD86CD00B416EC /* XSTabBarViewController.swift in Sources */,
+				09A12F931ED2963300926CD2 /* ExtensionUIView.swift in Sources */,
 				09A7D5BC1ECD86CD00B416EC /* XSActiveViewController.swift in Sources */,
 				09A7D5C91ECEA59C00B416EC /* XSPlanListViewController.swift in Sources */,
+				09A12F8F1ED28B0B00926CD2 /* XSPlandetailsHeaderView.swift in Sources */,
 				09A7D5BE1ECD86CD00B416EC /* XSBaseViewController.swift in Sources */,
+				09A12F8C1ED287B200926CD2 /* XSPlandetailsCell.swift in Sources */,
 				0942CEFA1ECC44A900478755 /* AppDelegate.swift in Sources */,
+				09A12F951ED2CE3B00926CD2 /* ExtensionUIColor.swift in Sources */,
 				09A7D5C71ECEA43000B416EC /* XSPlandetailsViewController.swift in Sources */,
+				09A12F971ED2E50400926CD2 /* XSProjectFlowView.swift in Sources */,
 				09A7D5CC1ECEC56600B416EC /* XSPlanListCell.swift in Sources */,
 				09A7D5BD1ECD86CD00B416EC /* Constant.swift in Sources */,
 				09A7D5C01ECD86CD00B416EC /* XSDiscoverViewController.swift in Sources */,

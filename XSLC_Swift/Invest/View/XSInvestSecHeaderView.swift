@@ -22,7 +22,7 @@ class XSInvestSecHeaderView: UITableViewHeaderFooterView {
     override init(reuseIdentifier: String?) {
         super.init(reuseIdentifier: reuseIdentifier)
         
-        contentView.backgroundColor = kColor_gray
+        contentView.backgroundColor = kVCBgColor
         
         let bgView = UIView.init(frame: CGRect.init(x: 0, y: 5, width: kDeviceWidth, height: 40))
         
