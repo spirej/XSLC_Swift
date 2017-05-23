@@ -37,9 +37,9 @@ class XSProjectFlowView: UIView {
         let iconB = buildImageView(rect: CGRect.init(x: iconA.maxX + space, y: iconA.y, width: 8, height: 8), iconStr: "icon_p1")
         let iconC = buildImageView(rect: CGRect.init(x: iconB.maxX + space, y: iconA.y, width: 8, height: 8), iconStr: "icon_p1")
         
-        let lineA = buildLine(rect: CGRect.init(x: iconA.maxX, y: 0, width: space, height: 1), color: UIColor.clear.colorWithHex(rgb: 0x52adff, alpha: 0.6))
+        let lineA = buildView(rect: CGRect.init(x: iconA.maxX, y: 0, width: space, height: 1), color: UIColor.clear.colorWithHex(rgb: 0x52adff, alpha: 0.6))
         lineA.centerY = iconA.centerY
-        let lineB = buildLine(rect: CGRect.init(x: iconB.maxX, y: 0, width: space, height: 1), color: UIColor.clear.colorWithHex(rgb: 0x52adff, alpha: 0.6))
+        let lineB = buildView(rect: CGRect.init(x: iconB.maxX, y: 0, width: space, height: 1), color: UIColor.clear.colorWithHex(rgb: 0x52adff, alpha: 0.6))
         lineB.centerY = iconA.centerY
         
         let lock = buildLabel(rect: CGRect.init(x: iconA.maxX, y: 55, width: space, height: 14), labelColor: UIColor.clear, text: "持有365天", textColor: UIColor.clear.colorWithHex(rgb: 0xa1a5aa, alpha: 1), fontSize: 12, align: .center)

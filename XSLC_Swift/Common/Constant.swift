@@ -14,6 +14,10 @@ let kDeviceHeight = UIScreen.main.bounds.size.height
 let kNavigationBarHeight:CGFloat = 44
 
 let kVCBgColor = UIColor.clear.colorWithHex(rgb: 0xf7f7f8, alpha: 1)
+let colorGrayLine = UIColor.clear.colorWithHex(rgb: 0xe3e3e3, alpha: 1)
+let colorGray = UIColor.clear.colorWithHex(rgb: 0xa1a5aa, alpha: 1)
+let colorBlue = UIColor.clear.colorWithHex(rgb: 0x52adff, alpha: 1)
+let colorBlack = UIColor.clear.colorWithHex(rgb: 0x252c3d, alpha: 1)
 
 // UILabel
 func buildLabel(rect:CGRect, labelColor:UIColor, text:String, textColor:UIColor, fontSize:CGFloat, align:NSTextAlignment) -> UILabel {
@@ -45,10 +49,10 @@ func buildImageView(rect:CGRect, iconStr:String) -> UIImageView {
 }
 
 //线
-func buildLine(rect:CGRect, color:UIColor) -> UIView {
-    let line = UIView(frame: rect)
-    line.backgroundColor = color
-    return line
+func buildView(rect:CGRect, color:UIColor) -> UIView {
+    let view = UIView(frame: rect)
+    view.backgroundColor = color
+    return view
 }
 
 

@@ -22,7 +22,6 @@ class XSPlandetailsHeaderView: UIView {
     
     override init(frame: CGRect) {
         super.init(frame: frame)
-        self.backgroundColor = kVCBgColor
         
         //背景图
         let bgIcon = UIImageView(frame: CGRect.init(x: 0, y: 0, width: kDeviceWidth, height: 230))

@@ -9,12 +9,14 @@
 import UIKit
 
 let headerH: CGFloat = 440.0
+let joinViewH: CGFloat = 60.0
 var planTableView: UITableView!
 var planHeaderView: XSPlandetailsHeaderView!
+var joinView:UIView!
 var titleArray:Array<String>!
 var descArray:Array<String>!
 
-class XSPlandetailsViewController: UIViewController, UITableViewDelegate, UITableViewDataSource {
+class XSPlandetailsViewController: UIViewController, UITableViewDelegate, UITableViewDataSource, UITextFieldDelegate {
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -28,6 +30,11 @@ class XSPlandetailsViewController: UIViewController, UITableViewDelegate, UITabl
         descArray = ["VIP3及以上会员专享", "成功加入计划后，将有50%概率获得加息", "当天起息", "365天（2018年05月21日到期）", "到期本息", "无"]
         
         setUI()
+    }
+    
+    // MARK: - ACTION
+    func join() {
+        self.view.endEditing(true)
     }
     
     // MARK: - UITableViewDelegate & DataSource
@@ -47,18 +54,76 @@ class XSPlandetailsViewController: UIViewController, UITableViewDelegate, UITabl
         return cell
     }
     
+    // MARK: - UITextFieldDelegate
+    func textFieldShouldBeginEditing(_ textField: UITextField) -> Bool {
+        //注册键盘通知
+        NotificationCenter.default.addObserver(self, selector: #selector(keyBoardWillShow(_:)), name: NSNotification.Name.UIKeyboardWillShow, object: nil)
+        NotificationCenter.default.addObserver(self, selector: #selector(keyBoardWillHide(_:)), name: NSNotification.Name.UIKeyboardWillHide, object: nil)
+        return true
+    }
+    
+    func keyBoardWillShow(_ notification: Notification) {
+        //获取userInfo
+        let kbInfo = notification.userInfo
+        //获取键盘的size
+        let kbRect = (kbInfo?[UIKeyboardFrameEndUserInfoKey] as! NSValue).cgRectValue
+        //键盘的Y偏移量
+        let kbHeight = kbRect.size.height
+        //键盘弹出时间
+        let duration = kbInfo?[UIKeyboardAnimationDurationUserInfoKey] as! Double
+        //界面偏出动画
+        UIView.animate(withDuration: duration) {
+            joinView.frame = CGRect.init(x: 0, y: kDeviceHeight - joinViewH - kbHeight, width: kDeviceWidth, height: joinViewH)
+        }
+    }
+    
+    func keyBoardWillHide(_ notification: Notification) {
+        let kbInfo = notification.userInfo
+        let duration = kbInfo?[UIKeyboardAnimationDurationUserInfoKey] as! Double
+        UIView.animate(withDuration: duration) { 
+            joinView.frame = CGRect.init(x: 0, y: kDeviceHeight - joinViewH, width: kDeviceWidth, height: joinViewH)
+        }
+    }
+    
+    //移除通知
+    deinit {
+        NotificationCenter.default.removeObserver(self)
+    }
+    
     // MARK: - SETUI
     func setUI() {
         planHeaderView = XSPlandetailsHeaderView(frame: CGRect.init(x: 0, y: 0, width: kDeviceWidth, height: headerH))
         
-        planTableView = UITableView(frame: CGRect.init(x: 0, y: 0, width: kDeviceWidth, height: kDeviceHeight), style: .plain)
+        planTableView = UITableView(frame: CGRect.init(x: 0, y: 0, width: kDeviceWidth, height: kDeviceHeight - joinViewH), style: .plain)
         planTableView.register(UINib.init(nibName: "XSPlandetailsCell", bundle: Bundle.main), forCellReuseIdentifier: "PlandetailsCell")
         planTableView.delegate = self
         planTableView.dataSource = self
         planTableView.tableHeaderView = planHeaderView
+        planTableView.backgroundColor = UIColor.clear
         planTableView.separatorStyle = UITableViewCellSeparatorStyle.none
         
+        joinView = buildView(rect: CGRect.init(x: 0, y: kDeviceHeight - joinViewH, width: kDeviceWidth, height: joinViewH), color: UIColor.white)
+        
+        let line = buildView(rect: CGRect.init(x: 0, y: 0, width: kDeviceWidth, height: 0.6), color: colorGrayLine)
+        
+        let joinAmountTF = UITextField(frame: CGRect.init(x: 5, y: 5, width: kDeviceWidth - 150, height: 50))
+        joinAmountTF.placeholder = "XXX元起投"
+        joinAmountTF.keyboardType = UIKeyboardType.numberPad
+        joinAmountTF.borderStyle = .roundedRect
+        joinAmountTF.delegate = self
+//        joinAmountTF.leftViewMode = .always
+//        joinAmountTF.leftViewRect(forBounds: CGRect.init(x: 0, y: 0, width: 10, height: 50))
+        
+        let joinBT = buildButton(rect: CGRect.init(x: joinAmountTF.maxX + 5, y: 5, width: 135, height: 50), bgColor: UIColor.clear.colorWithHex(rgb: 0x52adff, alpha: 1), text: "立即加入", font: 15, textColor: UIColor.white)
+        joinBT.layer.cornerRadius = 3
+        joinBT.addTarget(self, action: #selector(join), for: .touchUpInside)
+        
+        joinView.addSubview(line)
+        joinView.addSubview(joinAmountTF)
+        joinView.addSubview(joinBT)
+        
         self.view.addSubview(planTableView)
+        self.view.addSubview(joinView)
     }
 
     override func didReceiveMemoryWarning() {
