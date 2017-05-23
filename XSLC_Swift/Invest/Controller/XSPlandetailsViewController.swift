@@ -51,6 +51,11 @@ class XSPlandetailsViewController: UIViewController, UITableViewDelegate, UITabl
         cell.icon.image = UIImage(named: "icon\(indexPath.row)")
         cell.title.text = titleArray[indexPath.row]
         cell.desc.text = descArray[indexPath.row]
+        if indexPath.row == titleArray.count - 1 {
+            cell.line.isHidden = true
+        }else {
+            cell.line.isHidden = false
+        }
         return cell
     }
     
@@ -80,7 +85,7 @@ class XSPlandetailsViewController: UIViewController, UITableViewDelegate, UITabl
     func keyBoardWillHide(_ notification: Notification) {
         let kbInfo = notification.userInfo
         let duration = kbInfo?[UIKeyboardAnimationDurationUserInfoKey] as! Double
-        UIView.animate(withDuration: duration) { 
+        UIView.animate(withDuration: duration) {
             joinView.frame = CGRect.init(x: 0, y: kDeviceHeight - joinViewH, width: kDeviceWidth, height: joinViewH)
         }
     }
@@ -111,8 +116,8 @@ class XSPlandetailsViewController: UIViewController, UITableViewDelegate, UITabl
         joinAmountTF.keyboardType = UIKeyboardType.numberPad
         joinAmountTF.borderStyle = .roundedRect
         joinAmountTF.delegate = self
-//        joinAmountTF.leftViewMode = .always
-//        joinAmountTF.leftViewRect(forBounds: CGRect.init(x: 0, y: 0, width: 10, height: 50))
+        joinAmountTF.leftView = buildView(rect: CGRect.init(x: 0, y: 0, width: 10, height: 50), color: UIColor.clear)
+        joinAmountTF.leftViewMode = .always
         
         let joinBT = buildButton(rect: CGRect.init(x: joinAmountTF.maxX + 5, y: 5, width: 135, height: 50), bgColor: UIColor.clear.colorWithHex(rgb: 0x52adff, alpha: 1), text: "立即加入", font: 15, textColor: UIColor.white)
         joinBT.layer.cornerRadius = 3

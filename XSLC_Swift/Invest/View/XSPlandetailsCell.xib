@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="12118" systemVersion="16B2555" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="12120" systemVersion="16B2555" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
     <device id="retina4_7" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12086"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12088"/>
         <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
@@ -45,20 +45,31 @@
                         <color key="textColor" red="0.1450980392" green="0.17254901959999999" blue="0.23921568630000001" alpha="1" colorSpace="calibratedRGB"/>
                         <nil key="highlightedColor"/>
                     </label>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="pAc-2E-exy">
+                        <rect key="frame" x="10" y="54" width="310" height="1"/>
+                        <color key="backgroundColor" red="0.8901960784313725" green="0.8901960784313725" blue="0.8901960784313725" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="1" id="LL7-fI-zWI"/>
+                        </constraints>
+                    </view>
                 </subviews>
                 <constraints>
                     <constraint firstItem="X4l-JY-7jM" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leadingMargin" constant="102" id="HyY-hL-uQc"/>
                     <constraint firstItem="sZc-vI-5dO" firstAttribute="centerY" secondItem="H2p-sc-9uM" secondAttribute="centerY" id="JSd-yS-yu7"/>
                     <constraint firstItem="X4l-JY-7jM" firstAttribute="centerY" secondItem="H2p-sc-9uM" secondAttribute="centerY" id="KFH-CX-pJf"/>
                     <constraint firstItem="bnv-h4-Urj" firstAttribute="centerY" secondItem="H2p-sc-9uM" secondAttribute="centerY" id="MFx-Iv-FbY"/>
+                    <constraint firstAttribute="trailing" secondItem="pAc-2E-exy" secondAttribute="trailing" id="T17-L5-fda"/>
                     <constraint firstItem="bnv-h4-Urj" firstAttribute="leading" secondItem="sZc-vI-5dO" secondAttribute="trailing" constant="5" id="ieU-jX-4RK"/>
                     <constraint firstItem="sZc-vI-5dO" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leadingMargin" constant="2" id="oKi-s5-eoj"/>
+                    <constraint firstItem="pAc-2E-exy" firstAttribute="top" secondItem="X4l-JY-7jM" secondAttribute="bottom" constant="18" id="qJ3-Zf-SaL"/>
                     <constraint firstAttribute="trailingMargin" secondItem="X4l-JY-7jM" secondAttribute="trailing" constant="2" id="ws1-K6-KWa"/>
+                    <constraint firstItem="pAc-2E-exy" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="10" id="zhR-CU-qBG"/>
                 </constraints>
             </tableViewCellContentView>
             <connections>
                 <outlet property="desc" destination="X4l-JY-7jM" id="ER0-Ih-38z"/>
                 <outlet property="icon" destination="sZc-vI-5dO" id="JzC-uL-mRf"/>
+                <outlet property="line" destination="pAc-2E-exy" id="eJG-IF-ufW"/>
                 <outlet property="title" destination="bnv-h4-Urj" id="c3S-Yl-a4S"/>
             </connections>
             <point key="canvasLocation" x="34" y="53.5"/>
