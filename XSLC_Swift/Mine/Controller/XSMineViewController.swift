@@ -16,6 +16,11 @@ class XSMineViewController: UIViewController, UICollectionViewDelegate, UICollec
     private var collectView: UICollectionView!
     private var titleArray:Array<String>!
     private var descArray:Array<String>!
+    
+    let FXPC_url = "http://m.xiangshang360.com/html/newwap/answer/introduce.html"
+    let HYZX_url = "http://m.xiangshang360.com/html/newwap/member/memberCenter.html"
+    let XDX_url = "http://m.xiangshang360.com/broker/B525B19DC7F06702717D856155666B668A74E9F6EE4704A6D18D9A2259EC29D6/index?version=3.0"
+    
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -31,7 +36,26 @@ class XSMineViewController: UIViewController, UICollectionViewDelegate, UICollec
     
     // MARK: - UICollectionViewDelegate
     func collectionView(_ collectionView: UICollectionView, didSelectItemAt indexPath: IndexPath) {
-        
+        switch indexPath.row {
+        case 0,1,2,3,4,6,7,8,9,12,13: break
+        case 5:
+            let webVC1 = XSWebViewController(title: "风险评测", url: FXPC_url)
+            webVC1.hidesBottomBarWhenPushed = true;
+            self.navigationController?.pushViewController(webVC1, animated: true)
+            break
+        case 10:
+            let webVC2 = XSWebViewController(title: "会员中心", url: HYZX_url)
+            webVC2.hidesBottomBarWhenPushed = true
+            self.navigationController?.pushViewController(webVC2, animated: true)
+            break
+        case 11:
+            let webVC3 = XSWebViewController(title: "向大侠", url: XDX_url)
+            webVC3.hidesBottomBarWhenPushed = true
+            self.navigationController?.pushViewController(webVC3, animated: true)
+            break
+        default:
+            break
+        }
     }
     // MARK: - UICollectionViewDataSource
     func numberOfSections(in collectionView: UICollectionView) -> Int {
