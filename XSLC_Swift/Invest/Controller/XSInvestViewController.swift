@@ -8,12 +8,11 @@
 
 import UIKit
 
-let headHeight:CGFloat = 120.0
-let IDENTIFY = "CELLIDENTIFY"
-let IDHEADER = "HEADERIDENTIFY"
-
-
 class XSInvestViewController: UIViewController, UITableViewDelegate, UITableViewDataSource {
+
+    let headHeight:CGFloat = 120.0
+    let IDENTIFY = "CELLIDENTIFY"
+    let IDHEADER = "HEADERIDENTIFY"
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -39,7 +38,7 @@ class XSInvestViewController: UIViewController, UITableViewDelegate, UITableView
     }
     
     func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
-        return 120
+        return 130
     }
     
     func tableView(_ tableView: UITableView, heightForHeaderInSection section: Int) -> CGFloat {
@@ -61,8 +60,7 @@ class XSInvestViewController: UIViewController, UITableViewDelegate, UITableView
     }
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        let cell = tableView.dequeueReusableCell(withIdentifier: IDENTIFY, for: indexPath)
-        cell.textLabel?.text = "假数据 - 第\(indexPath.section)组 - 第\(indexPath.row)个"
+        let cell:XSPlanListCell = tableView.dequeueReusableCell(withIdentifier: "PlanListCell") as! XSPlanListCell
         return cell
     }
     
@@ -80,7 +78,7 @@ class XSInvestViewController: UIViewController, UITableViewDelegate, UITableView
         
         
         let tableView = UITableView(frame: CGRect.init(x: 0, y: 0, width: kDeviceWidth, height: kDeviceHeight), style: UITableViewStyle.grouped)
-        tableView.register(UITableViewCell.classForCoder(), forCellReuseIdentifier: IDENTIFY)
+        tableView.register(UINib.init(nibName: "XSPlanListCell", bundle: nil), forCellReuseIdentifier: "PlanListCell")
         tableView.delegate = self
         tableView.dataSource = self
         tableView.tableHeaderView = headIcon

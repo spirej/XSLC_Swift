@@ -91,4 +91,11 @@ extension UIView {
             self.frame = rect
         }
     }
+    
+    class func viewFromXIB() -> UIView {
+        let classString = NSStringFromClass(self) as NSString
+        let view = Bundle.main.loadNibNamed(classString.pathExtension, owner: nil, options: nil)?.first as! UIView
+        return view
+    }
+
 }

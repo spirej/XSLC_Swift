@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="12120" systemVersion="16B2555" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12088"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="MineCollectionCell" id="gTV-IL-0wX" customClass="XSMineCollectionCell" customModule="XSLC_Swift" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="120" height="80"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="120" height="80"/>
+                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                <subviews>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="R3U-ej-qvC">
+                        <rect key="frame" x="10" y="30" width="20" height="20"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="20" id="A0U-rd-Fh6"/>
+                            <constraint firstAttribute="width" constant="20" id="RnU-Hd-Cmk"/>
+                        </constraints>
+                    </imageView>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="向上计划" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Htq-1k-33i">
+                        <rect key="frame" x="40" y="30" width="62" height="15"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="15" id="4KJ-xf-4qQ"/>
+                            <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="30" id="zuf-yX-Cfx"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                        <color key="textColor" red="0.1450980392" green="0.17254901959999999" blue="0.23921568630000001" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="已加入项目12" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xjb-0h-vkR">
+                        <rect key="frame" x="40" y="50" width="74.5" height="12"/>
+                        <constraints>
+                            <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="30" id="SpG-k5-T9l"/>
+                            <constraint firstAttribute="height" constant="12" id="deg-PV-eJc"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                        <color key="textColor" red="0.63137254899999995" green="0.64705882349999999" blue="0.66666666669999997" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+            </view>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstItem="xjb-0h-vkR" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" constant="40" id="9fo-Io-uHj"/>
+                <constraint firstItem="xjb-0h-vkR" firstAttribute="top" secondItem="Htq-1k-33i" secondAttribute="bottom" constant="5" id="AQf-zs-znA"/>
+                <constraint firstItem="R3U-ej-qvC" firstAttribute="centerY" secondItem="gTV-IL-0wX" secondAttribute="centerY" id="LH2-hg-2xs"/>
+                <constraint firstItem="R3U-ej-qvC" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" constant="10" id="Mkk-H9-B3M"/>
+                <constraint firstItem="Htq-1k-33i" firstAttribute="leading" secondItem="R3U-ej-qvC" secondAttribute="trailing" constant="10" id="n72-Br-tnw"/>
+                <constraint firstItem="Htq-1k-33i" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" constant="30" id="rmd-iH-Np1"/>
+            </constraints>
+            <connections>
+                <outlet property="desc" destination="xjb-0h-vkR" id="QAr-uF-wLp"/>
+                <outlet property="icon" destination="R3U-ej-qvC" id="LzJ-TL-czG"/>
+                <outlet property="title" destination="Htq-1k-33i" id="nrO-05-40d"/>
+            </connections>
+        </collectionViewCell>
+    </objects>
+</document>

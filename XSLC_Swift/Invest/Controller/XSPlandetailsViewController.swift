@@ -8,15 +8,15 @@
 
 import UIKit
 
-let headerH: CGFloat = 440.0
-let joinViewH: CGFloat = 60.0
-var planTableView: UITableView!
-var planHeaderView: XSPlandetailsHeaderView!
-var joinView:UIView!
-var titleArray:Array<String>!
-var descArray:Array<String>!
-
 class XSPlandetailsViewController: UIViewController, UITableViewDelegate, UITableViewDataSource, UITextFieldDelegate {
+    
+    let headerH: CGFloat = 440.0
+    let joinViewH: CGFloat = 60.0
+    var planTableView: UITableView!
+    var planHeaderView: XSPlandetailsHeaderView!
+    var joinView:UIView!
+    private var titleArray:Array<String>!
+    private var descArray:Array<String>!
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -78,7 +78,7 @@ class XSPlandetailsViewController: UIViewController, UITableViewDelegate, UITabl
         let duration = kbInfo?[UIKeyboardAnimationDurationUserInfoKey] as! Double
         //界面偏出动画
         UIView.animate(withDuration: duration) {
-            joinView.frame = CGRect.init(x: 0, y: kDeviceHeight - joinViewH - kbHeight, width: kDeviceWidth, height: joinViewH)
+            self.joinView.frame = CGRect.init(x: 0, y: kDeviceHeight - self.joinViewH - kbHeight, width: kDeviceWidth, height: self.joinViewH)
         }
     }
     
@@ -86,7 +86,7 @@ class XSPlandetailsViewController: UIViewController, UITableViewDelegate, UITabl
         let kbInfo = notification.userInfo
         let duration = kbInfo?[UIKeyboardAnimationDurationUserInfoKey] as! Double
         UIView.animate(withDuration: duration) {
-            joinView.frame = CGRect.init(x: 0, y: kDeviceHeight - joinViewH, width: kDeviceWidth, height: joinViewH)
+            self.joinView.frame = CGRect.init(x: 0, y: kDeviceHeight - self.joinViewH, width: kDeviceWidth, height: self.joinViewH)
         }
     }
     

@@ -14,6 +14,10 @@
 		0942CF041ECC44A900478755 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0942CF021ECC44A900478755 /* LaunchScreen.storyboard */; };
 		0942CF0F1ECC44A900478755 /* XSLC_SwiftTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0942CF0E1ECC44A900478755 /* XSLC_SwiftTests.swift */; };
 		0942CF1A1ECC44A900478755 /* XSLC_SwiftUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0942CF191ECC44A900478755 /* XSLC_SwiftUITests.swift */; };
+		09892C521ED420A800E911C0 /* XSMineCollectionCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09892C501ED420A800E911C0 /* XSMineCollectionCell.swift */; };
+		09892C531ED420A800E911C0 /* XSMineCollectionCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 09892C511ED420A800E911C0 /* XSMineCollectionCell.xib */; };
+		09892C5B1ED43E5400E911C0 /* XSMineHeaderView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 09892C591ED43E5400E911C0 /* XSMineHeaderView.xib */; };
+		09892C5C1ED5270300E911C0 /* XSMineHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09892C581ED43E5400E911C0 /* XSMineHeaderView.swift */; };
 		09A12F8C1ED287B200926CD2 /* XSPlandetailsCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09A12F8A1ED287B200926CD2 /* XSPlandetailsCell.swift */; };
 		09A12F8D1ED287B200926CD2 /* XSPlandetailsCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 09A12F8B1ED287B200926CD2 /* XSPlandetailsCell.xib */; };
 		09A12F8F1ED28B0B00926CD2 /* XSPlandetailsHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09A12F8E1ED28B0B00926CD2 /* XSPlandetailsHeaderView.swift */; };
@@ -66,6 +70,10 @@
 		0942CF151ECC44A900478755 /* XSLC_SwiftUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = XSLC_SwiftUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0942CF191ECC44A900478755 /* XSLC_SwiftUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XSLC_SwiftUITests.swift; sourceTree = "<group>"; };
 		0942CF1B1ECC44A900478755 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		09892C501ED420A800E911C0 /* XSMineCollectionCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = XSMineCollectionCell.swift; sourceTree = "<group>"; };
+		09892C511ED420A800E911C0 /* XSMineCollectionCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = XSMineCollectionCell.xib; sourceTree = "<group>"; };
+		09892C581ED43E5400E911C0 /* XSMineHeaderView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = XSMineHeaderView.swift; sourceTree = "<group>"; };
+		09892C591ED43E5400E911C0 /* XSMineHeaderView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = XSMineHeaderView.xib; sourceTree = "<group>"; };
 		09A12F8A1ED287B200926CD2 /* XSPlandetailsCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = XSPlandetailsCell.swift; sourceTree = "<group>"; };
 		09A12F8B1ED287B200926CD2 /* XSPlandetailsCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = XSPlandetailsCell.xib; sourceTree = "<group>"; };
 		09A12F8E1ED28B0B00926CD2 /* XSPlandetailsHeaderView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = XSPlandetailsHeaderView.swift; sourceTree = "<group>"; };
@@ -346,6 +354,10 @@
 		09A7D5BB1ECD86CD00B416EC /* View */ = {
 			isa = PBXGroup;
 			children = (
+				09892C501ED420A800E911C0 /* XSMineCollectionCell.swift */,
+				09892C511ED420A800E911C0 /* XSMineCollectionCell.xib */,
+				09892C581ED43E5400E911C0 /* XSMineHeaderView.swift */,
+				09892C591ED43E5400E911C0 /* XSMineHeaderView.xib */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -412,6 +424,7 @@
 		0942CEEE1ECC44A900478755 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				CLASSPREFIX = XS;
 				LastSwiftUpdateCheck = 0830;
 				LastUpgradeCheck = 0830;
 				ORGANIZATIONNAME = SPIREJ;
@@ -458,9 +471,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				0942CF041ECC44A900478755 /* LaunchScreen.storyboard in Resources */,
+				09892C531ED420A800E911C0 /* XSMineCollectionCell.xib in Resources */,
 				09A7D5CD1ECEC56600B416EC /* XSPlanListCell.xib in Resources */,
 				09A12F8D1ED287B200926CD2 /* XSPlandetailsCell.xib in Resources */,
 				0942CF011ECC44A900478755 /* Assets.xcassets in Resources */,
+				09892C5B1ED43E5400E911C0 /* XSMineHeaderView.xib in Resources */,
 				0942CEFF1ECC44A900478755 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -486,7 +501,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				09892C5C1ED5270300E911C0 /* XSMineHeaderView.swift in Sources */,
 				09A7D5C11ECD86CD00B416EC /* XSHomeViewController.swift in Sources */,
+				09892C521ED420A800E911C0 /* XSMineCollectionCell.swift in Sources */,
 				09A7D5C21ECD86CD00B416EC /* XSInvestViewController.swift in Sources */,
 				09A7D5C31ECD86CD00B416EC /* XSMineViewController.swift in Sources */,
 				09A7D5C51ECE93BF00B416EC /* XSInvestSecHeaderView.swift in Sources */,

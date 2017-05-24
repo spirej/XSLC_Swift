@@ -41,19 +41,33 @@ func buildButton(rect:CGRect, bgColor:UIColor, text:String, font:CGFloat, textCo
     return btn
 }
 
-//图片
+//UIImageView
 func buildImageView(rect:CGRect, iconStr:String) -> UIImageView {
     let icon = UIImageView(frame: rect)
     icon.image = UIImage(named: iconStr)
     return icon
 }
 
-//线
+//UIView
 func buildView(rect:CGRect, color:UIColor) -> UIView {
     let view = UIView(frame: rect)
     view.backgroundColor = color
     return view
 }
+
+func changeText(text:String, subText:String, font:CGFloat, color:UIColor) -> NSMutableAttributedString {
+    let str = text as NSString
+    let rust = NSMutableAttributedString(string: text)
+    
+    let r = str.range(of: subText)
+    let range = NSMakeRange(r.location, r.length)
+    
+    rust.addAttribute(NSFontAttributeName, value: font, range: range)
+    rust.addAttribute(NSForegroundColorAttributeName, value: color, range: range)
+    return rust
+}
+
+
 
 
 
