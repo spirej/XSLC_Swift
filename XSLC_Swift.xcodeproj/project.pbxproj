@@ -434,6 +434,7 @@
 				TargetAttributes = {
 					0942CEF51ECC44A900478755 = {
 						CreatedOnToolsVersion = 8.3.1;
+						DevelopmentTeam = GTXN4D7V92;
 						ProvisioningStyle = Automatic;
 					};
 					0942CF091ECC44A900478755 = {
@@ -678,7 +679,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				DEVELOPMENT_TEAM = "";
+				DEVELOPMENT_TEAM = GTXN4D7V92;
 				GCC_PREFIX_HEADER = "$(SRCROOT)/XSLC_Swift/XSLC_Swift/PrefixHeader.pch";
 				INFOPLIST_FILE = XSLC_Swift/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -694,7 +695,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				DEVELOPMENT_TEAM = "";
+				DEVELOPMENT_TEAM = GTXN4D7V92;
 				GCC_PREFIX_HEADER = "$(SRCROOT)/XSLC_Swift/XSLC_Swift/PrefixHeader.pch";
 				INFOPLIST_FILE = XSLC_Swift/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
