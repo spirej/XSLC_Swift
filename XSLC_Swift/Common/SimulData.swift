@@ -26,3 +26,17 @@ let targetUrl = ["http://www.xiangshang360.com/pageapp/article/detail.html?type=
                  "http://www.xiangshang360.com/pageapp/article/detail.html?type=659",
                  "http://m.xiangshang360.com/newwap/newbieGuide/index",
                  "http://www.xiangshang360.com/pageapp/article/detail.html?type=778"]
+
+//好物白拿icon
+let whiteTakeIcon = ["https://static.xiangshang360.com/opm/userfiles/6b71e5dffcec453181e46cc78fdfcf41/images/app/goods/2017/04/ipadxin1.png",
+                     "https://static.xiangshang360.com/opm/userfiles/6b71e5dffcec453181e46cc78fdfcf41/images/app/goods/2017/03/%E5%B0%8F%E7%B1%B3%E5%87%80%E5%8C%96%E5%99%A8PRO(450x360).jpg",
+                     "https://static.xiangshang360.com/opm/userfiles/6b71e5dffcec453181e46cc78fdfcf41/images/app/goods/2017/01/kindle%E9%BB%91%E8%89%B2.png",
+                     "https://static.xiangshang360.com/opm/userfiles/6b71e5dffcec453181e46cc78fdfcf41/images/app/goods/2017/04/ip73.png",
+                     "https://static.xiangshang360.com/opm/userfiles/6b71e5dffcec453181e46cc78fdfcf41/images/app/goods/2017/01/beats%E8%80%B3%E6%9C%BASolo3(450x360)(1).png",
+                     "https://static.xiangshang360.com/opm/userfiles/6b71e5dffcec453181e46cc78fdfcf41/images/app/goods/2017/04/ip7p3.png",
+                     "https://static.xiangshang360.com/opm/userfiles/6b71e5dffcec453181e46cc78fdfcf41/images/app/goods/2017/05/buding1.png",
+                     "https://static.xiangshang360.com/opm/userfiles/6b71e5dffcec453181e46cc78fdfcf41/images/app/goods/2017/05/dailide1.png",
+                     "https://static.xiangshang360.com/opm/userfiles/6b71e5dffcec453181e46cc78fdfcf41/images/app/goods/2017/05/dajiang4.png",
+                     "https://static.xiangshang360.com/opm/userfiles/6b71e5dffcec453181e46cc78fdfcf41/images/app/goods/2017/01/mack%E7%81%B0%E8%89%B2.png",
+                     "https://static.xiangshang360.com/opm/userfiles/6b71e5dffcec453181e46cc78fdfcf41/images/app/goods/2017/01/iPhone7%20%E4%BA%AE%E9%BB%91.png",
+                     "https://static.xiangshang360.com/opm/userfiles/6b71e5dffcec453181e46cc78fdfcf41/images/app/goods/2017/01/iPhone%207%20Plus%E4%BA%AE%E9%BB%91.png"]

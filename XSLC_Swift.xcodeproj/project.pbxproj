@@ -39,6 +39,12 @@
 		09A7D5CC1ECEC56600B416EC /* XSPlanListCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09A7D5CA1ECEC56600B416EC /* XSPlanListCell.swift */; };
 		09A7D5CD1ECEC56600B416EC /* XSPlanListCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 09A7D5CB1ECEC56600B416EC /* XSPlanListCell.xib */; };
 		09D0F6F81ED7D61D006E4D5A /* SimulData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09D0F6F71ED7D61D006E4D5A /* SimulData.swift */; };
+		09D0F6FA1ED7D8F1006E4D5A /* XSHomeItemsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09D0F6F91ED7D8F1006E4D5A /* XSHomeItemsView.swift */; };
+		09D0F6FC1ED7D907006E4D5A /* XSHomeItemsView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 09D0F6FB1ED7D907006E4D5A /* XSHomeItemsView.xib */; };
+		09D0F6FF1ED80905006E4D5A /* XSHomeQuickbuyCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09D0F6FD1ED80905006E4D5A /* XSHomeQuickbuyCell.swift */; };
+		09D0F7001ED80905006E4D5A /* XSHomeQuickbuyCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 09D0F6FE1ED80905006E4D5A /* XSHomeQuickbuyCell.xib */; };
+		09D0F7031ED81F51006E4D5A /* XSHomeWhiteTakeCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09D0F7011ED81F51006E4D5A /* XSHomeWhiteTakeCell.swift */; };
+		09D0F7041ED81F51006E4D5A /* XSHomeWhiteTakeCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 09D0F7021ED81F51006E4D5A /* XSHomeWhiteTakeCell.xib */; };
 		8C3C930D929DF5BDF4E00D58 /* Pods_XSLC_Swift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 84D93ABD7800705DB2EA947C /* Pods_XSLC_Swift.framework */; };
 		9870FD90FA4E0A29EF873965 /* Pods_XSLC_SwiftTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2F3BC72B84F8FD9CCFE6DBF0 /* Pods_XSLC_SwiftTests.framework */; };
 		CD7CDED4973A9252FF7F41F6 /* Pods_XSLC_SwiftUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 03A326C2285B40B599DF9090 /* Pods_XSLC_SwiftUITests.framework */; };
@@ -101,6 +107,12 @@
 		09A7D5CA1ECEC56600B416EC /* XSPlanListCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = XSPlanListCell.swift; sourceTree = "<group>"; };
 		09A7D5CB1ECEC56600B416EC /* XSPlanListCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = XSPlanListCell.xib; sourceTree = "<group>"; };
 		09D0F6F71ED7D61D006E4D5A /* SimulData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SimulData.swift; sourceTree = "<group>"; };
+		09D0F6F91ED7D8F1006E4D5A /* XSHomeItemsView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = XSHomeItemsView.swift; sourceTree = "<group>"; };
+		09D0F6FB1ED7D907006E4D5A /* XSHomeItemsView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = XSHomeItemsView.xib; sourceTree = "<group>"; };
+		09D0F6FD1ED80905006E4D5A /* XSHomeQuickbuyCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = XSHomeQuickbuyCell.swift; sourceTree = "<group>"; };
+		09D0F6FE1ED80905006E4D5A /* XSHomeQuickbuyCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = XSHomeQuickbuyCell.xib; sourceTree = "<group>"; };
+		09D0F7011ED81F51006E4D5A /* XSHomeWhiteTakeCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = XSHomeWhiteTakeCell.swift; sourceTree = "<group>"; };
+		09D0F7021ED81F51006E4D5A /* XSHomeWhiteTakeCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = XSHomeWhiteTakeCell.xib; sourceTree = "<group>"; };
 		2F3BC72B84F8FD9CCFE6DBF0 /* Pods_XSLC_SwiftTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_XSLC_SwiftTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		38BC3FE60A68609019D5441F /* Pods-XSLC_SwiftUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XSLC_SwiftUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-XSLC_SwiftUITests/Pods-XSLC_SwiftUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		6AABE0E6223CC3F48A88107A /* Pods-XSLC_SwiftTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XSLC_SwiftTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-XSLC_SwiftTests/Pods-XSLC_SwiftTests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -303,6 +315,12 @@
 		09A7D5B11ECD86CD00B416EC /* View */ = {
 			isa = PBXGroup;
 			children = (
+				09D0F6F91ED7D8F1006E4D5A /* XSHomeItemsView.swift */,
+				09D0F6FB1ED7D907006E4D5A /* XSHomeItemsView.xib */,
+				09D0F6FD1ED80905006E4D5A /* XSHomeQuickbuyCell.swift */,
+				09D0F6FE1ED80905006E4D5A /* XSHomeQuickbuyCell.xib */,
+				09D0F7011ED81F51006E4D5A /* XSHomeWhiteTakeCell.swift */,
+				09D0F7021ED81F51006E4D5A /* XSHomeWhiteTakeCell.xib */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -530,8 +548,11 @@
 				09892C531ED420A800E911C0 /* XSMineCollectionCell.xib in Resources */,
 				09A7D5CD1ECEC56600B416EC /* XSPlanListCell.xib in Resources */,
 				09A12F8D1ED287B200926CD2 /* XSPlandetailsCell.xib in Resources */,
+				09D0F7041ED81F51006E4D5A /* XSHomeWhiteTakeCell.xib in Resources */,
 				0942CF011ECC44A900478755 /* Assets.xcassets in Resources */,
+				09D0F6FC1ED7D907006E4D5A /* XSHomeItemsView.xib in Resources */,
 				09892C5B1ED43E5400E911C0 /* XSMineHeaderView.xib in Resources */,
+				09D0F7001ED80905006E4D5A /* XSHomeQuickbuyCell.xib in Resources */,
 				0942CEFF1ECC44A900478755 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -696,6 +717,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				09892C5C1ED5270300E911C0 /* XSMineHeaderView.swift in Sources */,
+				09D0F6FA1ED7D8F1006E4D5A /* XSHomeItemsView.swift in Sources */,
 				09A7D5C11ECD86CD00B416EC /* XSHomeViewController.swift in Sources */,
 				09892C5E1ED5671100E911C0 /* XSWebViewController.swift in Sources */,
 				09892C521ED420A800E911C0 /* XSMineCollectionCell.swift in Sources */,
@@ -709,6 +731,7 @@
 				09A7D5BC1ECD86CD00B416EC /* XSActiveViewController.swift in Sources */,
 				09A7D5C91ECEA59C00B416EC /* XSPlanListViewController.swift in Sources */,
 				09A12F8F1ED28B0B00926CD2 /* XSPlandetailsHeaderView.swift in Sources */,
+				09D0F6FF1ED80905006E4D5A /* XSHomeQuickbuyCell.swift in Sources */,
 				09A7D5BE1ECD86CD00B416EC /* XSBaseViewController.swift in Sources */,
 				09A12F8C1ED287B200926CD2 /* XSPlandetailsCell.swift in Sources */,
 				0942CEFA1ECC44A900478755 /* AppDelegate.swift in Sources */,
@@ -717,6 +740,7 @@
 				09A12F971ED2E50400926CD2 /* XSProjectFlowView.swift in Sources */,
 				09A7D5CC1ECEC56600B416EC /* XSPlanListCell.swift in Sources */,
 				09A7D5BD1ECD86CD00B416EC /* Constant.swift in Sources */,
+				09D0F7031ED81F51006E4D5A /* XSHomeWhiteTakeCell.swift in Sources */,
 				09A7D5C01ECD86CD00B416EC /* XSDiscoverViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

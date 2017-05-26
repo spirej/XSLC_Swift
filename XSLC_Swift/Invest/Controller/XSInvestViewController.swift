@@ -76,6 +76,15 @@ class XSInvestViewController: UIViewController, UITableViewDelegate, UITableView
         let headIcon = UIImageView(frame: CGRect.init(x: 0, y: 0, width: kDeviceWidth, height: headHeight))
         headIcon.image = UIImage(named: "investBg")
         
+        let title = buildLabel(rect: CGRect.init(x: 0, y: 25, width: kDeviceWidth, height: 18), labelColor: UIColor.clear, text: "工资理财", textColor: UIColor.white, fontSize: 18, align: .center)
+        title.font = UIFont.boldSystemFont(ofSize: 18)
+        
+        let desc = buildLabel(rect: CGRect.init(x: 0, y: title.maxY + 15, width: kDeviceWidth, height: 12), labelColor: UIColor.clear, text: "每月工资定存，赚取自己的年终奖！", textColor: UIColor.white, fontSize: 12, align: .center)
+        let joiner = buildLabel(rect: CGRect.init(x: 0, y: desc.maxY + 16, width: kDeviceWidth, height: 18), labelColor: UIColor.clear, text: "已有 2763 人加入", textColor: UIColor.white, fontSize: 14, align: .center)
+        
+        headIcon.addSubview(title)
+        headIcon.addSubview(desc)
+        headIcon.addSubview(joiner)
         
         let tableView = UITableView(frame: CGRect.init(x: 0, y: 0, width: kDeviceWidth, height: kDeviceHeight), style: UITableViewStyle.grouped)
         tableView.register(UINib.init(nibName: "XSPlanListCell", bundle: nil), forCellReuseIdentifier: "PlanListCell")
