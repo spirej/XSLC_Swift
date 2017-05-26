@@ -1,0 +1,20 @@
+PODS:
+  - Kingfisher (3.9.1)
+  - LLCycleScrollView (1.3.0):
+    - Kingfisher
+  - SDWebImage (4.0.0):
+    - SDWebImage/Core (= 4.0.0)
+  - SDWebImage/Core (4.0.0)
+
+DEPENDENCIES:
+  - LLCycleScrollView
+  - SDWebImage (~> 4.0)
+
+SPEC CHECKSUMS:
+  Kingfisher: 6729a0baaa458245bfb8cd5a1296c71c10d6eb6c
+  LLCycleScrollView: 060b1b98b4ed284cc6ff5c5cca18a0d8542e94ae
+  SDWebImage: 76a6348bdc74eb5a55dd08a091ef298e56b55e41
+
+PODFILE CHECKSUM: 04a225e881695b012665dff3161b1930b366c636
+
+COCOAPODS: 1.2.1
