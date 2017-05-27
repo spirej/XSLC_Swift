@@ -8,6 +8,7 @@ target 'XSLC_Swift' do
   # Pods for XSLC_Swift
    pod 'SDWebImage', '~> 4.0'
    pod 'LLCycleScrollView'
+   pod 'SwiftyJSON'
 
   target 'XSLC_SwiftTests' do
     inherit! :search_paths
