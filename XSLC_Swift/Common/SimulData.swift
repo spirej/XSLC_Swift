@@ -40,3 +40,22 @@ let whiteTakeIcon = ["https://static.xiangshang360.com/opm/userfiles/6b71e5dffce
                      "https://static.xiangshang360.com/opm/userfiles/6b71e5dffcec453181e46cc78fdfcf41/images/app/goods/2017/01/mack%E7%81%B0%E8%89%B2.png",
                      "https://static.xiangshang360.com/opm/userfiles/6b71e5dffcec453181e46cc78fdfcf41/images/app/goods/2017/01/iPhone7%20%E4%BA%AE%E9%BB%91.png",
                      "https://static.xiangshang360.com/opm/userfiles/6b71e5dffcec453181e46cc78fdfcf41/images/app/goods/2017/01/iPhone%207%20Plus%E4%BA%AE%E9%BB%91.png"]
+
+
+//////////////////////////////////////////////////////////////////////////////////////////////////
+
+//发现页 banner
+let discover_bannerUrl = "https://static.xiangshang360.com/opm/userfiles/e2421cdf0ae649cab977bb4b67cd8b2e/images/app/banner/2016/12/%E7%A7%AF%E5%88%86%E5%95%86%E5%9F%8E.jpg"
+let discover_bannerTarget = "http://m.xiangshang360.com/member/homepage"
+
+let discoverListPics = ["https://static.xiangshang360.com/opm/app/sport.png",
+                        "https://static.xiangshang360.com/opm/app/pintu.png",
+                        "https://static.xiangshang360.com/opm/app/shake.png",
+                        "https://static.xiangshang360.com/opm/app/task.png"]
+
+let discoverListTarget = ["http://m.xiangshang360.com/html/newwap/find/find.html#/puzzle?_k=euiwmf",
+                          "http://m.xiangshang360.com/wap/daily/shakeindex?version=3.0&v=2",
+                          "http://m.xiangshang360.com/html/newwap/find/find.html#/dotask?_k=n1nag6"]
+
+
+

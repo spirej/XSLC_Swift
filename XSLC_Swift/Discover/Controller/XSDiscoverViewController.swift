@@ -13,9 +13,17 @@ class XSDiscoverViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        // Do any additional setup after loading the view.
+        self.navigationItem.title = "发现"
+        self.view.backgroundColor = kVCBgColor
+        setUI()
     }
 
+    // MARK: - SETUI
+    func setUI() {
+        //
+//        let view = XSCustomView.init(frame: CGRect.init(x: 0, y: 0, width: kDeviceWidth, height: 200))
+//        self.view.addSubview(view)
+    }
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.

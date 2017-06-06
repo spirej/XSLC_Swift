@@ -14,6 +14,7 @@
 		0942CF041ECC44A900478755 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0942CF021ECC44A900478755 /* LaunchScreen.storyboard */; };
 		0942CF0F1ECC44A900478755 /* XSLC_SwiftTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0942CF0E1ECC44A900478755 /* XSLC_SwiftTests.swift */; };
 		0942CF1A1ECC44A900478755 /* XSLC_SwiftUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0942CF191ECC44A900478755 /* XSLC_SwiftUITests.swift */; };
+		095DE52B1EDFEF28001A70CA /* XSSliderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 095DE52A1EDFEF28001A70CA /* XSSliderView.swift */; };
 		09892C521ED420A800E911C0 /* XSMineCollectionCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09892C501ED420A800E911C0 /* XSMineCollectionCell.swift */; };
 		09892C531ED420A800E911C0 /* XSMineCollectionCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 09892C511ED420A800E911C0 /* XSMineCollectionCell.xib */; };
 		09892C5B1ED43E5400E911C0 /* XSMineHeaderView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 09892C591ED43E5400E911C0 /* XSMineHeaderView.xib */; };
@@ -38,6 +39,9 @@
 		09A7D5C91ECEA59C00B416EC /* XSPlanListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09A7D5C81ECEA59C00B416EC /* XSPlanListViewController.swift */; };
 		09A7D5CC1ECEC56600B416EC /* XSPlanListCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09A7D5CA1ECEC56600B416EC /* XSPlanListCell.swift */; };
 		09A7D5CD1ECEC56600B416EC /* XSPlanListCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 09A7D5CB1ECEC56600B416EC /* XSPlanListCell.xib */; };
+		09B718521EE64DB500CD99D2 /* XSNewsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09B718511EE64DB500CD99D2 /* XSNewsTableViewController.swift */; };
+		09B718551EE6526600CD99D2 /* XSNewsCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09B718531EE6526600CD99D2 /* XSNewsCell.swift */; };
+		09B718561EE6526600CD99D2 /* XSNewsCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 09B718541EE6526600CD99D2 /* XSNewsCell.xib */; };
 		09D0F6F81ED7D61D006E4D5A /* SimulData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09D0F6F71ED7D61D006E4D5A /* SimulData.swift */; };
 		09D0F6FA1ED7D8F1006E4D5A /* XSHomeItemsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09D0F6F91ED7D8F1006E4D5A /* XSHomeItemsView.swift */; };
 		09D0F6FC1ED7D907006E4D5A /* XSHomeItemsView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 09D0F6FB1ED7D907006E4D5A /* XSHomeItemsView.xib */; };
@@ -82,6 +86,7 @@
 		0942CF151ECC44A900478755 /* XSLC_SwiftUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = XSLC_SwiftUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0942CF191ECC44A900478755 /* XSLC_SwiftUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XSLC_SwiftUITests.swift; sourceTree = "<group>"; };
 		0942CF1B1ECC44A900478755 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		095DE52A1EDFEF28001A70CA /* XSSliderView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = XSSliderView.swift; sourceTree = "<group>"; };
 		09892C501ED420A800E911C0 /* XSMineCollectionCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = XSMineCollectionCell.swift; sourceTree = "<group>"; };
 		09892C511ED420A800E911C0 /* XSMineCollectionCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = XSMineCollectionCell.xib; sourceTree = "<group>"; };
 		09892C581ED43E5400E911C0 /* XSMineHeaderView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = XSMineHeaderView.swift; sourceTree = "<group>"; };
@@ -106,6 +111,9 @@
 		09A7D5C81ECEA59C00B416EC /* XSPlanListViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = XSPlanListViewController.swift; sourceTree = "<group>"; };
 		09A7D5CA1ECEC56600B416EC /* XSPlanListCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = XSPlanListCell.swift; sourceTree = "<group>"; };
 		09A7D5CB1ECEC56600B416EC /* XSPlanListCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = XSPlanListCell.xib; sourceTree = "<group>"; };
+		09B718511EE64DB500CD99D2 /* XSNewsTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = XSNewsTableViewController.swift; sourceTree = "<group>"; };
+		09B718531EE6526600CD99D2 /* XSNewsCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = XSNewsCell.swift; sourceTree = "<group>"; };
+		09B718541EE6526600CD99D2 /* XSNewsCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = XSNewsCell.xib; sourceTree = "<group>"; };
 		09D0F6F71ED7D61D006E4D5A /* SimulData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SimulData.swift; sourceTree = "<group>"; };
 		09D0F6F91ED7D8F1006E4D5A /* XSHomeItemsView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = XSHomeItemsView.swift; sourceTree = "<group>"; };
 		09D0F6FB1ED7D907006E4D5A /* XSHomeItemsView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = XSHomeItemsView.xib; sourceTree = "<group>"; };
@@ -224,6 +232,7 @@
 			isa = PBXGroup;
 			children = (
 				09A7D5A11ECD86CD00B416EC /* XSActiveViewController.swift */,
+				09B718511EE64DB500CD99D2 /* XSNewsTableViewController.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -238,6 +247,9 @@
 		09A7D5A31ECD86CD00B416EC /* View */ = {
 			isa = PBXGroup;
 			children = (
+				095DE52A1EDFEF28001A70CA /* XSSliderView.swift */,
+				09B718531EE6526600CD99D2 /* XSNewsCell.swift */,
+				09B718541EE6526600CD99D2 /* XSNewsCell.xib */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -548,6 +560,7 @@
 				09892C531ED420A800E911C0 /* XSMineCollectionCell.xib in Resources */,
 				09A7D5CD1ECEC56600B416EC /* XSPlanListCell.xib in Resources */,
 				09A12F8D1ED287B200926CD2 /* XSPlandetailsCell.xib in Resources */,
+				09B718561EE6526600CD99D2 /* XSNewsCell.xib in Resources */,
 				09D0F7041ED81F51006E4D5A /* XSHomeWhiteTakeCell.xib in Resources */,
 				0942CF011ECC44A900478755 /* Assets.xcassets in Resources */,
 				09D0F6FC1ED7D907006E4D5A /* XSHomeItemsView.xib in Resources */,
@@ -716,6 +729,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				09B718551EE6526600CD99D2 /* XSNewsCell.swift in Sources */,
 				09892C5C1ED5270300E911C0 /* XSMineHeaderView.swift in Sources */,
 				09D0F6FA1ED7D8F1006E4D5A /* XSHomeItemsView.swift in Sources */,
 				09A7D5C11ECD86CD00B416EC /* XSHomeViewController.swift in Sources */,
@@ -725,6 +739,7 @@
 				09A7D5C31ECD86CD00B416EC /* XSMineViewController.swift in Sources */,
 				09A7D5C51ECE93BF00B416EC /* XSInvestSecHeaderView.swift in Sources */,
 				0942CEFC1ECC44A900478755 /* ViewController.swift in Sources */,
+				09B718521EE64DB500CD99D2 /* XSNewsTableViewController.swift in Sources */,
 				09A7D5BF1ECD86CD00B416EC /* XSTabBarViewController.swift in Sources */,
 				09D0F6F81ED7D61D006E4D5A /* SimulData.swift in Sources */,
 				09A12F931ED2963300926CD2 /* ExtensionUIView.swift in Sources */,
@@ -732,6 +747,7 @@
 				09A7D5C91ECEA59C00B416EC /* XSPlanListViewController.swift in Sources */,
 				09A12F8F1ED28B0B00926CD2 /* XSPlandetailsHeaderView.swift in Sources */,
 				09D0F6FF1ED80905006E4D5A /* XSHomeQuickbuyCell.swift in Sources */,
+				095DE52B1EDFEF28001A70CA /* XSSliderView.swift in Sources */,
 				09A7D5BE1ECD86CD00B416EC /* XSBaseViewController.swift in Sources */,
 				09A12F8C1ED287B200926CD2 /* XSPlandetailsCell.swift in Sources */,
 				0942CEFA1ECC44A900478755 /* AppDelegate.swift in Sources */,
