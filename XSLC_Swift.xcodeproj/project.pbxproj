@@ -49,6 +49,8 @@
 		09D0F7001ED80905006E4D5A /* XSHomeQuickbuyCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 09D0F6FE1ED80905006E4D5A /* XSHomeQuickbuyCell.xib */; };
 		09D0F7031ED81F51006E4D5A /* XSHomeWhiteTakeCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09D0F7011ED81F51006E4D5A /* XSHomeWhiteTakeCell.swift */; };
 		09D0F7041ED81F51006E4D5A /* XSHomeWhiteTakeCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 09D0F7021ED81F51006E4D5A /* XSHomeWhiteTakeCell.xib */; };
+		09F2D51F1EE6996B009B6EF2 /* XSDiscoverView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09F2D51E1EE6996B009B6EF2 /* XSDiscoverView.swift */; };
+		09F2D5211EE69975009B6EF2 /* XSDiscoverView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 09F2D5201EE69975009B6EF2 /* XSDiscoverView.xib */; };
 		8C3C930D929DF5BDF4E00D58 /* Pods_XSLC_Swift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 84D93ABD7800705DB2EA947C /* Pods_XSLC_Swift.framework */; };
 		9870FD90FA4E0A29EF873965 /* Pods_XSLC_SwiftTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2F3BC72B84F8FD9CCFE6DBF0 /* Pods_XSLC_SwiftTests.framework */; };
 		CD7CDED4973A9252FF7F41F6 /* Pods_XSLC_SwiftUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 03A326C2285B40B599DF9090 /* Pods_XSLC_SwiftUITests.framework */; };
@@ -121,6 +123,8 @@
 		09D0F6FE1ED80905006E4D5A /* XSHomeQuickbuyCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = XSHomeQuickbuyCell.xib; sourceTree = "<group>"; };
 		09D0F7011ED81F51006E4D5A /* XSHomeWhiteTakeCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = XSHomeWhiteTakeCell.swift; sourceTree = "<group>"; };
 		09D0F7021ED81F51006E4D5A /* XSHomeWhiteTakeCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = XSHomeWhiteTakeCell.xib; sourceTree = "<group>"; };
+		09F2D51E1EE6996B009B6EF2 /* XSDiscoverView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = XSDiscoverView.swift; sourceTree = "<group>"; };
+		09F2D5201EE69975009B6EF2 /* XSDiscoverView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = XSDiscoverView.xib; sourceTree = "<group>"; };
 		2F3BC72B84F8FD9CCFE6DBF0 /* Pods_XSLC_SwiftTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_XSLC_SwiftTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		38BC3FE60A68609019D5441F /* Pods-XSLC_SwiftUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XSLC_SwiftUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-XSLC_SwiftUITests/Pods-XSLC_SwiftUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		6AABE0E6223CC3F48A88107A /* Pods-XSLC_SwiftTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XSLC_SwiftTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-XSLC_SwiftTests/Pods-XSLC_SwiftTests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -295,6 +299,8 @@
 		09A7D5AC1ECD86CD00B416EC /* View */ = {
 			isa = PBXGroup;
 			children = (
+				09F2D51E1EE6996B009B6EF2 /* XSDiscoverView.swift */,
+				09F2D5201EE69975009B6EF2 /* XSDiscoverView.xib */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -560,6 +566,7 @@
 				09892C531ED420A800E911C0 /* XSMineCollectionCell.xib in Resources */,
 				09A7D5CD1ECEC56600B416EC /* XSPlanListCell.xib in Resources */,
 				09A12F8D1ED287B200926CD2 /* XSPlandetailsCell.xib in Resources */,
+				09F2D5211EE69975009B6EF2 /* XSDiscoverView.xib in Resources */,
 				09B718561EE6526600CD99D2 /* XSNewsCell.xib in Resources */,
 				09D0F7041ED81F51006E4D5A /* XSHomeWhiteTakeCell.xib in Resources */,
 				0942CF011ECC44A900478755 /* Assets.xcassets in Resources */,
@@ -755,6 +762,7 @@
 				09A7D5C71ECEA43000B416EC /* XSPlandetailsViewController.swift in Sources */,
 				09A12F971ED2E50400926CD2 /* XSProjectFlowView.swift in Sources */,
 				09A7D5CC1ECEC56600B416EC /* XSPlanListCell.swift in Sources */,
+				09F2D51F1EE6996B009B6EF2 /* XSDiscoverView.swift in Sources */,
 				09A7D5BD1ECD86CD00B416EC /* Constant.swift in Sources */,
 				09D0F7031ED81F51006E4D5A /* XSHomeWhiteTakeCell.swift in Sources */,
 				09A7D5C01ECD86CD00B416EC /* XSDiscoverViewController.swift in Sources */,

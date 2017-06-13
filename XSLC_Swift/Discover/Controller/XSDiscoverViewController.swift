@@ -9,6 +9,10 @@
 import UIKit
 
 class XSDiscoverViewController: UIViewController {
+    
+    var bgScrollView: UIScrollView!
+    var discoverView: XSDiscoverView!
+    
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -20,10 +24,20 @@ class XSDiscoverViewController: UIViewController {
 
     // MARK: - SETUI
     func setUI() {
-        //
-//        let view = XSCustomView.init(frame: CGRect.init(x: 0, y: 0, width: kDeviceWidth, height: 200))
-//        self.view.addSubview(view)
+        self.view.addSubview(buildBgScrollView())
+        
+        discoverView = XSDiscoverView(frame: CGRect.init(x: 0, y: 0, width: kDeviceWidth, height: 685))
+        bgScrollView.addSubview(discoverView)
     }
+    
+    func buildBgScrollView() -> UIScrollView {
+        bgScrollView = UIScrollView(frame: CGRect.init(x: 0, y: 0, width: kDeviceWidth, height: kDeviceHeight))
+        bgScrollView.contentSize = CGSize(width: kDeviceWidth, height: 800)
+        bgScrollView.backgroundColor = UIColor.white
+        return bgScrollView
+    }
+    
+    
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
